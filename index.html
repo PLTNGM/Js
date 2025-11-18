@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Ex 1</h1>
+
+    <div><script>
+       var sl1 = ['глаз', "нос", "череп"];
+       var sl2 = ["вонючий", "унылый", "скучный"];
+       var sl3 = ['Руслан', "Ярик", "дубина"];
+
+       var sl11 = sl1[Math.floor(Math.random()*3)];
+       var sl22 = sl2[Math.floor(Math.random()*3)];
+       var sl33 = sl3[Math.floor(Math.random()*3)];
+       var ranres = 'у тебя ' + sl11 + ' словно ' + sl22 + ' ' + sl33 + '!!!';
+    
+    document.write(ranres);
+    </script></div>
+
+    <h1>Ex 2</h1>
+    <div> <script>
+       var sl1 = ['глаз', "нос", "череп", "лицо", "ухо", "подмышка"];
+       var sl2 = ["вонючee", "унылee", "глупее", "каменней"];
+       var sl3 = ['рога', "рот", "нога", "язык"]
+       var sl4 = ['Руслана', "Ярика", "Вани"];
+
+       var sl11 = sl1[Math.floor(Math.random()*6)];
+       var sl22 = sl2[Math.floor(Math.random()*4)];
+       var sl33 = sl3[Math.floor(Math.random()*4)];
+       var sl44 = sl4[Math.floor(Math.random()*3)];
+
+        var res = "У тебя " + sl11 + " еще более " + sl22 + ", чем " + sl33 + " у " + sl44
+       document.write(res)
+    </script></div>
+   
+   <h1>Ex 3</h1>
+   <div>
+    <script>
+        var sl1 = ['глаз', "нос", "череп", "лицо", "ухо", "подмышка"];
+       var sl2 = ["вонючee", "унылee", "глупее", "каменней"];
+       var sl3 = ['рога', "рот", "нога", "язык"]
+       var sl4 = ['Руслана', "Ярика", "Вани"];
+
+       var sl11 = sl1[Math.floor(Math.random()*6)];
+       var sl22 = sl2[Math.floor(Math.random()*4)];
+       var sl33 = sl3[Math.floor(Math.random()*4)];
+       var sl44 = sl4[Math.floor(Math.random()*3)];
+       var res = "У тебя " + sl11 + " еще более " + sl22 + ", чем " + sl33 + " у " + sl44
+       var noresj = [sl11, sl22, sl33, sl44]
+       var resj = noresj.join(' ')
+       document.write(resj)
+    </script>
+   </div>
+
+   <h1>Ex 4</h1>
+   <div>
+    <script>
+        var nums = [4, 3, 2, 1]
+        res = nums.join(" больше, чем ")
+        document.write(res)
+    </script>
+   </div>
+</body>
+</html>
